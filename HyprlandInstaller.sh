@@ -40,8 +40,8 @@ git clone https://github.com/DamianRyse/HyprlandInstaller.git
 mkdir -p ~/.config/hypr    # Should be created automatically by the installation
 mkdir -p ~/.config/swaylock
 
-cp HyprlandInstaller/dotfiles/hyprland.conf ~/.conf/hypr/
-cp HyprlandInstaller/dotfiles/swaylock_config ~/.conf/swaylock/config
-cp -r HyprlandInstaller/dotfiles/rofi ~/.conf/
-cp -r HyprlandInstaller/dotfiles/qt6ct ~/.conf/
-cp -r HyprlandInstaller/dotfiles/alacritty ~/.conf/
+cp HyprlandInstaller/dotfiles/hyprland.conf ~/.config/hypr/
+cp HyprlandInstaller/dotfiles/swaylock_config ~/.config/swaylock/config
+cp -r HyprlandInstaller/dotfiles/rofi ~/.config/
+cp -r HyprlandInstaller/dotfiles/qt6ct ~/.config/
+cp -r HyprlandInstaller/dotfiles/alacritty ~/.config/
