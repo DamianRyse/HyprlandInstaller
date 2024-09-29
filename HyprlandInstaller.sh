@@ -45,3 +45,6 @@ cp HyprlandInstaller/dotfiles/swaylock_config ~/.config/swaylock/config
 cp -r HyprlandInstaller/dotfiles/rofi ~/.config/
 cp -r HyprlandInstaller/dotfiles/qt6ct ~/.config/
 cp -r HyprlandInstaller/dotfiles/alacritty ~/.config/
+
+# Install dependencies for Lightly (KF6 version)
+sudo pacman -S --needed --noconfirm frameworkintegration5 kcmutils5 kconfig5 kcoreaddons5 kdecoration5 kguiaddons5 ki18n5 kiconthemes5 kwayland5 kwindowsystem5
