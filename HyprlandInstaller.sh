@@ -34,5 +34,6 @@ makepkg -si
 
 curl -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/hyprland.conf
 mkdir -p ~/.config/swaylock
+mkdir -p ~/.config/waybar
 curl -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/swaylock_config
 
