@@ -18,13 +18,13 @@ sudo pacman -Syu --noconfirm
 
 # Install the basic components
 echo "Installing linux-headers"
-sudo pacman -S --noconfirm linux-headers
+sudo pacman -S --needed --noconfirm linux-headers
 
 echo "Installing Hyprland"
-sudo pacman -S --noconfirm hyprland
+sudo pacman -S --needed --noconfirm hyprland
 
 echo "Installing utilities"
-sudo pacman -S --noconfirm wget cifs-utils gvfs dunst libva nvidia-dkms obsidian pavucontrol pipewire pulseaudio qt6-wayland qt6ct rofi unzip usbutils waybar wget wireplumber xdg-desktop-portal xdg-desktop-portal-wlr zsh swwww alacritty kitty dolphin rofi btop  mpv git base-devel
+sudo pacman -S --needed --noconfirm wget cifs-utils gvfs dunst libva nvidia-dkms obsidian pavucontrol pipewire pulseaudio qt6-wayland qt6ct rofi unzip usbutils waybar wget wireplumber xdg-desktop-portal xdg-desktop-portal-wlr zsh swww alacritty kitty dolphin rofi btop  mpv git base-devel
 
 # Install yay
 echo "Installing yay"
@@ -32,4 +32,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
+curl -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/master/dotfiles/hyprland.conf
+curl -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/master/dotfiles/swaylock_config
 
