@@ -24,7 +24,7 @@ echo "Installing Hyprland"
 sudo pacman -S --needed --noconfirm hyprland
 
 echo "Installing utilities"
-sudo pacman -S --needed --noconfirm wget cifs-utils gvfs dunst libva nvidia-dkms obsidian pavucontrol pipewire pulseaudio qt6-wayland qt6ct rofi unzip usbutils waybar wget wireplumber xdg-desktop-portal xdg-desktop-portal-wlr zsh swww alacritty kitty dolphin rofi btop  mpv git base-devel noto-fonts noto-fonts-cjk noto-fonts-emoji gnu-free-fonts
+sudo pacman -S --needed --noconfirm wget cifs-utils gvfs dunst libva nvidia-dkms obsidian pavucontrol pipewire pulseaudio qt6-wayland qt6ct rofi unzip usbutils waybar wget wireplumber xdg-desktop-portal xdg-desktop-portal-wlr zsh swww alacritty kitty dolphin rofi btop  mpv git base-devel noto-fonts noto-fonts-cjk noto-fonts-emoji gnu-free-fonts ttf-jetbrains-mono-nerd
 
 # Install yay
 echo "Installing yay"
