@@ -32,6 +32,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-curl -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/master/dotfiles/hyprland.conf
-curl -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/master/dotfiles/swaylock_config
+curl -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/hyprland.conf
+curl -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/swaylock_config
 
