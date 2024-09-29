@@ -33,3 +33,5 @@ cd yay
 makepkg -si
 
 curl -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/master/dotfiles/hyprland.conf
+curl -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/master/dotfiles/swaylock_config
+
