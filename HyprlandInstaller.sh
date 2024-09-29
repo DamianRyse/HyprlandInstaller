@@ -31,11 +31,17 @@ echo "Installing yay"
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+cd ~
 
-wget -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/hyprland.conf
+# Clone the repository and start copying the dotfiles
+git clone https://github.com/DamianRyse/HyprlandInstaller.git
+
+# Create the .config directories
+mkdir -p ~/.config/hypr    # Should be created automatically by the installation
 mkdir -p ~/.config/swaylock
-mkdir -p ~/.config/waybar
-wget -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/swaylock_config
-wget -O ~/.config/waybar/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/waybar/config
-wget -O ~/.config/waybar/frappe.css  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/waybar/frappe.css
-wget -O ~/.config/waybar/style.css  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/waybar/style.css
+
+cp HyprlandInstaller/dotfiles/hyprland.conf ~/.conf/hypr/
+cp HyprlandInstaller/dotfiles/swaylock_config ~/.conf/swaylock/config
+cp -r HyprlandInstaller/dotfiles/rofi ~/.conf/
+cp -r HyprlandInstaller/dotfiles/qt6ct ~/.conf/
+cp -r HyprlandInstaller/dotfiles/alacritty ~/.conf/
