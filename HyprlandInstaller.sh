@@ -32,8 +32,10 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-curl -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/hyprland.conf
+wget -O ~/.config/hypr/hyprland.conf https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/hyprland.conf
 mkdir -p ~/.config/swaylock
 mkdir -p ~/.config/waybar
-curl -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/swaylock_config
-
+wget -O ~/.config/swaylock/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/swaylock_config
+wget -O ~/.config/waybar/config  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/waybar/config
+wget -O ~/.config/waybar/frappe.css  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/waybar/frappe.css
+wget -O ~/.config/waybar/style.css  https://raw.githubusercontent.com/DamianRyse/HyprlandInstaller/refs/heads/main/dotfiles/waybar/style.css
