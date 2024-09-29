@@ -18,13 +18,13 @@ sudo pacman -Syu --noconfirm
 
 # Install the basic components
 echo "Installing linux-headers"
-sudo pacman -S -needed --noconfirm linux-headers
+sudo pacman -S --needed --noconfirm linux-headers
 
 echo "Installing Hyprland"
-sudo pacman -S -needed --noconfirm hyprland
+sudo pacman -S --needed --noconfirm hyprland
 
 echo "Installing utilities"
-sudo pacman -S -needed --noconfirm wget cifs-utils gvfs dunst libva nvidia-dkms obsidian pavucontrol pipewire pulseaudio qt6-wayland qt6ct rofi unzip usbutils waybar wget wireplumber xdg-desktop-portal xdg-desktop-portal-wlr zsh swww alacritty kitty dolphin rofi btop  mpv git base-devel
+sudo pacman -S --needed --noconfirm wget cifs-utils gvfs dunst libva nvidia-dkms obsidian pavucontrol pipewire pulseaudio qt6-wayland qt6ct rofi unzip usbutils waybar wget wireplumber xdg-desktop-portal xdg-desktop-portal-wlr zsh swww alacritty kitty dolphin rofi btop  mpv git base-devel
 
 # Install yay
 echo "Installing yay"
